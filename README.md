@@ -10,5 +10,11 @@ git clone https://github.com/KMiyawaki/marker_array_test.git
 ## Try
 
 ```shell
+roslaunch marker_array_test marker_simple_test.launch
+```
+
+or
+
+```shell
 roslaunch marker_array_test marker_array_test.launch
 ```

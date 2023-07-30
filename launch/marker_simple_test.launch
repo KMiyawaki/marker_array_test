@@ -1,5 +1,5 @@
 <launch>
   <arg name="path" default="$(find marker_array_test)/config/rviz/marker_array_test.rviz" />
-  <node pkg="marker_array_test" type="marker_array_test.py" name="marker_array_test" output="screen"/>
+  <node pkg="marker_array_test" type="marker_simple_test.py" name="marker_simple_test" output="screen"/>
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg path)" required="true" />
 </launch>
